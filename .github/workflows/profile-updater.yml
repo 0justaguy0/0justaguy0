@@ -1,0 +1,46 @@
+name: Generate Profile Assets
+
+on:
+  # Run automatically every 12 hours
+  schedule:
+    - cron: "0 */12 * * *"
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate Profile Assets
+
+    steps:
+      # Step 1: Check out your repository
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Step 2: Generate the 3D contribution graph
+      # This will create a directory named 'profile-3d-contrib'
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        with:
+          github_user_name: 0justaguy0
+          # The GITHUB_TOKEN is automatically provided by GitHub Actions
+          # and has permissions to see all your contributions
+
+      # Step 3: Generate the contribution snake animation
+      # This will create SVG files in a 'dist' directory
+      - name: Generate Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: 0justaguy0
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # Step 4: Commit and push the generated files to the main branch
+      - name: Commit & Push
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "chore: update profile assets" || exit 0
+          git push
