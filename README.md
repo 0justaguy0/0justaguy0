@@ -138,12 +138,16 @@ I'm a third-year Computer Engineering student at AIT, Pune with a deep passion f
 
 <div align="center">
 
+<!-- This link is for the 3D graph -->
 <img src="https://raw.githubusercontent.com/0justaguy0/0justaguy0/main/profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph">
 
 </div>
 
 <div align="center">
-  <img src="https://github.com/0justaguy0/0justaguy0/blob/output/github-contribution-grid-snake.svg" alt="contribution snake">
+
+<!-- This is the UPDATED link for the snake animation -->
+<img src="https://raw.githubusercontent.com/0justaguy0/0justaguy0/main/dist/github-contribution-grid-snake.svg" alt="contribution snake">
+
 </div>
 
 ---
