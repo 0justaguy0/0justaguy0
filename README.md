@@ -2,9 +2,11 @@
 
 <h1 align="center">Hey there, I'm Utkarsh Sachan 👋</h1>
 
-<a href="https://github.com/0justaguy0">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=3390FF¢er=true&vCenter=true&width=450&lines=Computer+Engineering+Undergrad;Backend+%26+Cloud+Enthusiast;Crafting+Secure%2C+Scalable+Solutions" alt="Typing SVG" />
-</a>
+<p align="center">
+  <a href="https://github.com/0justaguy0">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=3390FF&center=true&vCenter=true&width=450&lines=Computer+Engineering+Undergrad;Backend+%26+Cloud+Enthusiast;Crafting+Secure%2C+Scalable+Solutions" alt="Typing SVG" />
+  </a>
+</p>
 
 </div>
 
