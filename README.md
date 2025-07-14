@@ -34,9 +34,9 @@ I'm a third-year Computer Engineering student at AIT, Pune with a deep passion f
 
 <div align="center">
 
-![Utkarsh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=0justaguy0&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=400)
+![Utkarsh's GitHub Stats](https://github-readme-stats-ochre-eight-79.vercel.app/api?username=0justaguy0&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=400)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0justaguy0&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=400)
+![Top Langs](https://github-readme-stats-ochre-eight-79.vercel.app/api/top-langs/?username=0justaguy0&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=400&count_private=true)
 
 </div>
 </td>
@@ -140,6 +140,10 @@ I'm a third-year Computer Engineering student at AIT, Pune with a deep passion f
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=0justaguy0&theme=tokyonight&hide_border=true&bg_color=1a1b27)
 
+</div>
+
+<div align="center">
+  <img src="https://github.com/0justaguy0/0justaguy0/blob/output/github-contribution-grid-snake.svg" alt="contribution snake">
 </div>
 
 ---
