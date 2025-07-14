@@ -1,85 +1,160 @@
-<h1 align="center">Hey there! I'm Utkarsh Sachan 👋</h1>
+<div align="center">
+
+<h1 align="center">Hey there, I'm Utkarsh Sachan 👋</h1>
+
+<a href="https://github.com/0justaguy0">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=3390FF¢er=true&vCenter=true&width=435&lines=Computer+Engineering+Undergrad;Backend+%26+Cloud+Enthusiast;Crafting+Secure%2C+Scalable+Solutions" alt="Typing SVG" />
+</a>
+
+</div>
 
 <p align="center">
-  <b>A passionate Computer Engineering undergrad</b><br/>
-  <i>Crafting secure, scalable, and smart software solutions</i>
+  <a href="mailto:utkarshsachan.official@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+  <a href="https://www.linkedin.com/in/utkarsh-sachan0000/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://github.com/0justaguy0"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
+
+---
+
+<table>
+  <tr>
+    <td valign="top" width="60%">
+      
+## 👨‍💻 `root/whoami`
+
+I'm a third-year Computer Engineering student at AIT, Pune with a deep passion for architecting the invisible backbone of technology. My core focus is on building high-performance backend systems, integrating intelligent AI features, and deploying on scalable cloud infrastructure.
+
+- 🎓 **Education:** 3rd-year B.E. student (GPA: 9.31 / 10.0).
+- 💡 **Interests:** Backend Development, AI Integration, Cloud Systems, System Design.
+- 🎯 **Mission:** To build systems that are not just functional, but also fast, clean, and production-ready.
+- 🧠 **Currently Exploring:** Advanced DevOps practices and serverless architectures.
+
+</td>
+<td valign="top" width="40%">
+
+<div align="center">
+
+![Utkarsh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=0justaguy0&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=400)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0justaguy0&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=400)
+
+</div>
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ `tech-stack`
 
 <p align="center">
-  <a href="mailto:utkarshsachan.official@gmail.com"><img src="https://img.shields.io/badge/email-utkarshsachan01%40gmail.com-red?style=flat-square&logo=gmail"></a>
-  <a href="https://www.linkedin.com/in/utkarsh-sachan0000/"><img src="https://img.shields.io/badge/linkedin-utkarsh--sachan0000-blue?style=flat-square&logo=linkedin"></a>
-  <a href="https://github.com/0justaguy0"><img src="https://img.shields.io/badge/github-0justaguy0-black?style=flat-square&logo=github"></a>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,cpp,js,html,css,django,fastapi,react,nextjs,nodejs,express,mongodb,postgres,mysql,sqlite,aws,docker,git,vscode,postman,figma,threejs&perline=11" />
+  </a>
 </p>
 
----
-
-### 🧑‍💻 About Me
-
-- 🎓 3rd-year Computer Engineering student at **Army Institute of Technology**, Pune.
-- 💼 Passionate about **Backend Development**, **AI Integration**, and **Cloud Systems**.
-- 🛠️ Building systems that are fast, clean, and production-ready.
-- 🧠 Exploring new technologies and solving real-world problems.
-- 📚 GPA: `9.31 / 10.0`
-
----
-
-### ⚙️ Tech Stack
-
-- 💻 **Languages**: Python, C++, JavaScript, HTML, CSS  
-- 🌐 **Frameworks & Libraries**: Django, FastAPI, ReactJS, NextJS, NodeJS, ExpressJS  
-- 🗄️ **Databases**: DynamoDB, MongoDB, PostgreSQL, MySQL, SQLite  
-- 🔐 **Security**: OAuth2, JWT, Encryption, HTTPS  
-- ☁️ **Cloud & DevOps**: AWS (S3, DynamoDB), Docker  
-- 🧰 **Tools**: Git, VS Code, Swagger, Postman, Flowise, Figma
+| Category                | Technologies                                                                                             |
+| ----------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Languages**           | `Python` `C++` `JavaScript` `HTML5` `CSS3`                                                               |
+| **Backend Frameworks**  | `Django` `FastAPI` `NodeJS` `ExpressJS`                                                                  |
+| **Frontend Frameworks** | `ReactJS` `NextJS` `Three.js`                                                                            |
+| **Databases**           | `DynamoDB` `MongoDB` `PostgreSQL` `MySQL` `SQLite`                                                       |
+| **Cloud & DevOps**      | `AWS (S3, DynamoDB)` `Docker`                                                                            |
+| **Security**            | `OAuth2` `JWT` `Encryption` `HTTPS`                                                                      |
+| **Tools & Platforms**   | `Git` `VS Code` `Swagger` `Postman` `Flowise` `Figma`                                                      |
 
 ---
 
-### 💼 Experience
+## 💼 `cd /experience`
 
-#### 🛠️ Backend Intern – Palette Design App *(May 2025 – Present)*
-- Built robust backend using FastAPI, DynamoDB & OpenAI APIs
-- Integrated S3 for multi-format file processing and decentralized logic using Flowise
+<details>
+<summary><b>🛠️ Backend Intern – Palette Design App</b> (May 2025 – Present)</summary>
+<br>
+<ul>
+  <li>Engineered a robust backend infrastructure using FastAPI and DynamoDB, processing over 10,000+ API requests daily with high availability.</li>
+  <li>Architected an S3-based file processing pipeline for multi-format files (images, PDFs) and decentralized complex business logic using Flowise.</li>
+  <li>Implemented secure authentication and authorization using JWT and OAuth2, protecting sensitive user data.</li>
+</ul>
+</details>
 
-#### 🧭 Fullstack Intern – Vedic Clock *(Apr 2025 – Jul 2025)*
-- Refactored latency-heavy Django app, improving response time by 50%
-- Used `swisseph` and `ephem` for offline astrological calculations
-- Designed responsive UI for multiple device form factors
+<details>
+<summary><b>🧭 Fullstack Intern – Vedic Clock</b> (Apr 2025 – Jul 2025)</summary>
+<br>
+<ul>
+  <li>Refactored a latency-heavy Django application by optimizing database queries and implementing caching, resulting in a 50% reduction in average API response time.</li>
+  <li>Integrated `swisseph` and `ephem` libraries for high-precision, offline astrological calculations, removing dependency on external APIs.</li>
+  <li>Designed and developed a fully responsive UI with React, ensuring a seamless experience across desktop, tablet, and mobile devices.</li>
+</ul>
+</details>
 
-#### 🧠 Web & AI Intern – MILVEST via AIT *(Dec 2024 – Feb 2025)*
-- Built full-stack AI-based exam platform automating 95% of evaluation tasks
-- Created peer-review system & scaled backend for 3K+ users
-- Reduced operational cost by 60% using dynamic rendering
-
----
-
-### 📚 Publications
-
-- 📖 **Cloud Computing and Navigating its Secureness**  
-  *Utkarsh Sachan et al.* – Dec 2024  
-  [🔗 DOI: 10.1201/9781003598152-63](http://dx.doi.org/10.1201/9781003598152-63)
-
----
-
-### 🚀 Projects
-
-- 🧪 **[BloodAnalyzer](https://github.com/0justaguy0/BloodAnalyzer)** – AI-powered tool for blood report analysis  
-- 🌐 **Portfolio Website (WIP)** – Built with ReactJS, EmailJS, and Vercel
-
----
-
-### 🏆 Achievements
-
-- 🥉 3rd Place – Vulcan Research Paper Writing Competition 2024  
-- 🗣️ Best Speaker – Swami Vivekanand Foundation Elocution  
-- 🎭 Organizer – Pune’s largest slam poetry event (AIT Magazine Board)
+<details>
+<summary><b>🧠 Web & AI Intern – MILVEST via AIT</b> (Dec 2024 – Feb 2025)</summary>
+<br>
+<ul>
+  <li>Built a full-stack AI-powered examination platform that automated 95% of subjective evaluation tasks using NLP models.</li>
+  <li>Developed a peer-review system and scaled the backend infrastructure to handle concurrent usage by over 3,000 students.</li>
+  <li>Reduced operational costs by 60% through the implementation of server-side rendering (SSR) and dynamic content delivery.</li>
+</ul>
+</details>
 
 ---
 
-### 📫 Let’s Connect
+## 🚀 `ls -a /projects`
 
-- 📧 **Email**: utkarshsachan.official@gmail.com  
-- 🔗 **LinkedIn**: [utkarsh-sachan0000](https://linkedin.com/in/utkarsh-sachan0000)
+<details>
+<summary><b>🧪 BloodAnalyzer – AI-Powered Blood Report Analysis</b></summary>
+<br>
+<p>
+  An intelligent tool that takes a standard blood report as input and provides a detailed analysis of potential health markers, deficiencies, and risks using a fine-tuned AI model.
+  <br><br>
+  <b>Tech:</b> Python, FastAPI, Scikit-learn, Pandas, Docker.
+  <br>
+  <a href="https://github.com/0justaguy0/BloodAnalyzer"><b>🔗 View on GitHub</b></a>
+</p>
+</details>
+
+<details>
+<summary><b>🌐 Portfolio Website (WIP)</b></summary>
+<br>
+<p>
+  My personal corner of the web to showcase my work, built with a modern, interactive, and clean design.
+  <br><br>
+  <b>Tech:</b> ReactJS, Three.js (for 3D elements), EmailJS, Vercel.
+</p>
+</details>
 
 ---
 
-> *"Striving to turn ideas into impactful code."*
+## 🏆 `cat /achievements.log`
+
+- **🥉 3rd Place:** Vulcan Research Paper Writing Competition 2024.
+- **🗣️ Best Speaker:** Swami Vivekanand Foundation Elocution.
+- **🎭 Organizer:** Pune’s largest slam poetry event (AIT Magazine Board).
+- **📖 Publication:** [Cloud Computing and Navigating its Secureness](http://dx.doi.org/10.1201/9781003598152-63) (DOI: 10.1201/9781003598152-63)
+
+---
+
+## 📊 `git-pulse`
+
+<div align="center">
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=0justaguy0&theme=tokyonight&hide_border=true&bg_color=1a1b27)
+
+</div>
+
+---
+
+<div align="center">
+
+### 📫 Let's Connect!
+
+*Executing `ping utkarshsachan.official@gmail.com`...*
+
+<p align="center">
+  <a href="mailto:utkarshsachan.official@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+  <a href="https://www.linkedin.com/in/utkarsh-sachan0000/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+</p>
+
+> "Striving to turn ideas into impactful code."
+
+</div>
