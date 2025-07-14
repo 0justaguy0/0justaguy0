@@ -138,7 +138,7 @@ I'm a third-year Computer Engineering student at AIT, Pune with a deep passion f
 
 <div align="center">
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=0justaguy0&theme=tokyonight&hide_border=true&bg_color=1a1b27)
+<img src="https://raw.githubusercontent.com/0justaguy0/0justaguy0/main/profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph">
 
 </div>
 
