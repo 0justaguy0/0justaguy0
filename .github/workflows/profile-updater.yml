@@ -1,4 +1,4 @@
-name: Generate Profile Assets
+name: Generate Snake Animation
 
 on:
   # Run automatically every 12 hours
@@ -9,23 +9,16 @@ on:
 
 permissions:
   contents: write
-  actions: read
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-    name: Generate Profile Assets
-
+    
     steps:
-      # Step 1: Check out your repository
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 2: Generate the contribution snake animation
-      # This will create SVG files in a 'dist' directory
-      - name: Generate Contribution Snake
+      - name: Generate snake game
         uses: Platane/snk@v3
         with:
           github_user_name: 0justaguy0
@@ -33,24 +26,14 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Step 3: Generate the 3D contribution graph
-      # This will create a directory named 'profile-3d-contrib'
-      - name: Generate 3D Contribution Graph
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          github_user_name: 0justaguy0
-
-      # Step 4: Commit and push the generated files to the main branch
-      - name: Commit & Push
+      - name: Commit and push changes
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add dist/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update profile assets"
+            git commit -m "Update snake animation"
             git push
           fi
